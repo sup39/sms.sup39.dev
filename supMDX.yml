@@ -1,0 +1,11 @@
+site:
+  startYear: 2023
+  title: サンシャイン
+  subtitle: 研究・開発
+  icon: /favicon.svg
+  #author: サポミク
+metaFields:
+  - {attr: createdAt, label: '作成日時：'}
+  - {attr: updatedAt, label: '更新日時：'}
+  - {attr: author, label: '作者：'}
+nav: []
