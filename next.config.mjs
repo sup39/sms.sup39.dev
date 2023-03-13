@@ -32,6 +32,7 @@ const withMDX = mdx({
 });
 export default withMDX({
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+  // skipTrailingSlashRedirect: true,
   trailingSlash: true,
   webpack(config) {
     config.module.rules.push({

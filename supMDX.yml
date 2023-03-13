@@ -9,3 +9,5 @@ metaFields:
   - {attr: updatedAt, label: '更新日時：'}
   - {attr: author, label: '作者：'}
 nav: []
+# - label: 旧サイト
+#   path: https://sms-old.sup39.dev/
