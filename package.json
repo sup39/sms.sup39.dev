@@ -4,8 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "git rebase main && next build && next export && rm -rf docs && mv out docs",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.mdx ."
   },
   "eslintConfig": {
